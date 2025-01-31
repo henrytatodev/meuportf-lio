@@ -94,25 +94,30 @@
       </div>
     </div>
   </section>
-
- <section id="contact">
+<section id="contact">
     <div class="container">
         <h2>Contact Me</h2>
-        <form action="https://formspree.io/f/xyzkjeyr" method="POST">
+        <form action="https://formsubmit.co/el/xihudu" method="POST">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
 
             <!-- Evita CAPTCHA automático -->
-            
+            <input type="hidden" name="_captcha" value="false">
 
             <!-- Redireciona para uma página de agradecimento após envio -->
             <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+
+            <!-- Personaliza o assunto do e-mail -->
+            <input type="hidden" name="_subject" value="Nova mensagem do meu site!">
 
             <button type="submit">Send</button>
         </form>
     </div>
 </section>
+
+
+
 
 
 
