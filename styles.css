@@ -203,4 +203,25 @@
   .project-card .btn:hover {
     background-color: #0077cc;
   }
+
+
+.social-links a {
+    text-decoration: none; /* Remove qualquer sublinhado */
+    display: inline-block; /* Para garantir que as imagens fiquem uma ao lado da outra */
+    position: relative;
+}
+
+.social-links a img {
+    display: block; /* Remove qualquer espaço indesejado abaixo da imagem */
+    border: none;   /* Remove qualquer borda ao redor da imagem */
+}
+
+.social-links a:hover {
+    text-decoration: none; /* Remove qualquer efeito de texto ao passar o mouse */
+}
+
+.social-links a img {
+    pointer-events: none; /* Impede que qualquer tooltip ou texto seja exibido ao passar o mouse */
+}
+
   
